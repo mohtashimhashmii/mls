@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/lity.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <title>MLS | career</title>
+  </head>
+  <body class="scrollbar" id="style-1">
+
+<header class="wrap_nav">
+      <nav class="navbar navbar-expand-lg custom-nav navbar-light">
+        <div class="container max-con">
+          <a class="navbar-brand cutom-logo" href="/"><img src="assets/img/head.png"></a>
+          <div class="search__digitalop d-block d-lg-none">
+            <i class="fa fa-search search-btn search-btn-overlay"></i>
+            <div class="searchblock search-overlay">
+              <div class="centered">
+                <div class="search-box">
+                  <i id="" class="fa fa-times fa-2x close-btn"></i>
+                  <div class="search__logo">
+                    <img src="assets/img/head.png" alt="">
+                  </div>
+                  <form>
+                    <div class="autocomplete">
+                      <input id="myInput" type="text" name="search" placeholder="Search">
+                    </div>
+                    <div class="digi-btn">
+                      <button type="submit" class="btn btn-light">Search</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="navbar-toggler custom-navbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <span class="navbar-toggler-icon"></span> -->
+         <i class="fas fa-bars nav-bar-custom"></i>
+       </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav custom-ul ml-auto btn-15 ">
+              <li class="nav-item "><a class="nav-link " data-menu-name="Home" id="custom-a" href="/">Home <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link " data-menu-name="About Us" href="aboutus.html">About Us</a></li>
+              <div class="dropdown">
+                <li class="nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Our services</a></li>
+                <div class="dropdown-content">
+                  <li class="nav-item"><a class="nav-link" href="coming.html">Consultancy</a></li>
+                  <li class="nav-item"><a class="nav-link" href="coming.html">Interior design</a></li>
+                </div>
+              </div>
+              <li class="nav-item"><a class="nav-link" data-menu-name="Our Project" href="ourproject.html">Our Projects</a></li>
+              <li class="nav-item active"><a class="nav-link menu-item" data-menu-name="Careers" href="career.html">Careers</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" data-menu-name="Blog" href="blog.html">Blog</a></li> -->
+              <li class="nav-item "><a class="nav-link " data-menu-name="Contact" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="language-changer d-lg-none d-md-block d-sm-block">
+            <a href=""><img src="assets/img/Saudi_Arabia.png" alt=""></a>
+            <a href=""><img src="assets/img/us.png" alt=""></a>
+          </div>
+
+            <!-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"> -->
+                  <div class="custom-digi mt-4 d-lg-none d-md-block d-sm-block">
+                    <h4>Contact US</h4>
+                    <p><span>Email : </span>contact@digitalopment.com</p>
+                    <p><span>Phone : </span>+ 92 333 433 229</p>
+                  </div>
+                  <div class="follow-section d-lg-none d-md-block d-sm-block">
+                <div class="social-icons mt-3">
+                  <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f facebook-2"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-whatsapp whatsapp"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+                    <!-- </div> -->
+          </div>
+          <div class="search__digitalop d-lg-block d-none ">
+            <i class="fa fa-search search-btn search-btn-overlay"></i>
+            <div class="searchblock search-overlay">
+              <div class="centered">
+                <div class="search-box">
+                  <i id="" class="fa fa-times fa-2x close-btn"></i>
+                  <div class="search__logo">
+                    <img src="assets/img/head.png" alt="">
+                  </div>
+                  <form>
+                    <div class="autocomplete">
+                      <input id="myInput" type="text" name="search" placeholder="Search">
+                    </div>
+                    <div class="digi-btn">
+                      <button type="submit" class="btn btn-light">Search</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="language-changer d-lg-block d-none">
+            <a href=""><img src="assets/img/Saudi_Arabia.png" alt=""></a>
+            <a href=""><img src="assets/img/us.png" alt=""></a>
+          </div>
+        </div>
+    <div class="side-icon-bar">
+      <p>Get In Touch</p>
+      <a href="https://www.facebook.com/matchlesssaudia/" class="facebook"><i class="fab fa-facebook-f"></i></a> 
+      <a href="https://twitter.com/SaudiaMatchless" class="twitter"><i class="fab fa-twitter"></i></a> 
+      <a href="https://www.linkedin.com/company/matchless-saudia/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.youtube.com/channel/UCAkOMUwxaf7k20tgwkVWxKw" class="youtube"><i class="fab fa-youtube"></i></a>
+      &nbsp; 
+    </div>
+      </nav>
+    </header>
+
+  <section>
+    <div class="career-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="contact-one">
+      <div class="rtl-slider-2">
+        <div class="rtl-slider-contact contact-slider1">
+          <div class="career-image-main">
+            <img src="assets/img/business-meeting.png" alt="">
+          </div>
+        </div>
+        <div class="rtl-slider-contact contact-slider2">
+          <div class="career-image-main">
+            <img src="assets/img/business-meeting2.png" alt="">
+          </div>
+        </div>
+        <div class="rtl-slider-contact contact-slider3">
+          <div class="career-image-main">
+            <img src="assets/img/business-meeting3.png" alt="">
+          </div>
+        </div>
+        </div>
+      </div>
+          <div class="career-border"></div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="career-info">
+            <div class="contact-card">
+                <div class="rtl-slider-nav-2">
+                  <div class="rtl-slider-contact card-head ">
+                    <h2>Design Buisness</h2>
+                    <h3>is our passion</h3>
+            <hr>
+            <p>At Matchless Saudia, we aim to build a team of fresh individuals with hospitality skills, creativity, a marketing and branding perspective, and sheer dedication to come up with astonishing and innovative ideas. </p>
+                  </div>
+                  <div class="rtl-slider-contact card-head">
+                    <h2>Proactive approach </h2>
+                    <h3>is our passion</h3>
+            <hr>
+            <p>We want our resources to have a proactive approach to everything, and most importantly, we want people who are leaders but know how to work under someone else’s leadership.</p>
+                  </div>
+                  <div class="rtl-slider-contact card-head">
+                    <h2>Launch Buisness</h2>
+                    <h3>is our passion</h3>
+            <hr>
+            <p>To be fully committed as a Bespoke company that provides a 360° efficient approach to management and consultancy in hospitality. Our values and ethics are what sets us apart.</p>
+                  </div>
+                </div>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section>
+      <div class="real-career">
+    <div class="container">
+        <div class="stand-main-circle">
+          <div class="career-stand  animatable fadeInDown">
+            <h2>Your Real Career Starts Here.</h2>
+            <p class="newcareer"> Together, Let’s Build a Better Future.</p>
+          </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="stand-box animatable fadeInDown">
+                  <img src="assets/img/exposure.png" alt="">
+                  <h5>Exposure</h5>
+                  <p>Employees at matchless have a great exposure of working with different people and under different circumstances.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="stand-box animatable fadeInDown">
+                  <img src="assets/img/environment.png" alt="">
+                  <h5>Environment </h5>
+                  <p>Compete in a positive environment in order to understand the dynamics of the company.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="stand-box animatable fadeInDown">
+                  <img src="assets/img/financial-growth.png" alt="">
+                  <h5>Financial growth</h5>
+                  <p>The aim is to increase the financial growth of the employees at matchless so that they work more efficiently.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section>
+     <div class="container">
+       <div class="carrer-position">
+         <div class="row">
+           <div class="col-lg-6 col-md-6 col-sm-12">
+             <div class="carrer-position-img  animatable fadeIn">
+               <img src="assets/img/hr.jpg" alt="">
+             </div>
+           </div>
+           <div class="col-1 d-lg-block d-none p-0"></div>
+           <div class="col-lg-5 col-md-6 col-sm-12">
+             <div class="position-info  animatable fadeInDown">
+               <h3>Open Positions   </h3>
+               <p>Amplify Your Career with Us</p>
+              <select id="target" >
+              <option value="0">No Open Positions </option>
+              <!-- <option value="content_1">Option 1</option>
+              <option value="content_2">Option 2</option>
+              <option value="content_3">Option 3</option>
+               --><select>
+        <div id="content_1" class="inv">
+          <div class="waiter-career">
+             <h3>waiter1</h3>
+              <p>Posted on :<span> 04-feb-11</span></p>
+             </div>
+             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet1</p>
+             <div class="waiter-career">
+             <h6><i class="fas fa-map-marker-alt"></i>Saudi Arabia</h6>
+              <p>Open Positions : <span> 04</span></p>
+             </div>
+              <h6>Apply : <span> Careers@matchlesssaudia.com</span></h6>
+        </div>
+        <div id="content_2" class="inv">
+          <div class="waiter-career">
+             <h3>waiter2</h3>
+              <p>Posted on :<span> 06-mar-31</span></p>
+             </div>
+             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+             <div class="waiter-career">
+             <h6><i class="fas fa-map-marker-alt"></i>Saudi Arabia</h6>
+              <p>Open Positions : <span> 04</span></p>
+             </div>
+              <h6>Apply : <span> Careers@matchlesssaudia.com</span></h6>
+        </div>
+        <div id="content_3" class="inv"><div class="waiter-career">
+             <h3>waite3</h3>
+              <p>Posted on :<span> 01-jan-12</span></p>
+             </div>
+             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+             <div class="waiter-career">
+             <h6><i class="fas fa-map-marker-alt"></i>Saudi Arabia</h6>
+              <p>Open Positions : <span> 04</span></p>
+             </div>
+              <h6>Apply : <span> Careers@matchlesssaudia.com</span></h6>
+            </div>
+             </div> 
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <section>
+     <div class="container">
+       <div class="careers-real  animatable fadeInDown">
+         <h2>Value of a good employer </h2>
+         <p class="newcareerpera"> Let's move forward with great values</p>
+       </div>
+         <div class="about-info">
+        <div class="row">
+          <div class=" col-lg-4 col-md-4 col-sm-4">
+            <div class="about-details animatable fadeInDown ">
+              <img src="assets/img/Strong-work-Ethic.png">
+              <h6>Strong work Ethic</h6>
+              <p>There is a need of strong work ethic in order to be successful.</p>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-md-4 col-sm-4">
+            <div class="about-details animatable fadeInDown">
+              <img src="assets/img/Professionalism_1.png">
+              <h6>Professionalism</h6>
+              <p>Professionalism is an important requirement for the restaurant industry.</p>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-md-4 col-sm-4">
+            <div class="about-details animatable fadeInDown">
+              <img src="assets/img/positive-attitude.png">
+              <h6>Positive attitude</h6>
+              <p>A positive attitude is fundamental for tackling the challenges that are faced by the business.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+     </div>
+   </section>
+   <section>
+      <div class="container">
+        <div class="contact-details">
+          <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <div class="backshadow">
+              <div class="visitus">
+                <div class="modal11">
+                <h5>VISIT US</h5>
+                <p>Matchless Saudia Co. 2567 King Abdul Aziz Rd, 6747 طريق الملك عبدالعزيز،, Riyadh Riyadh, Saudi Arabia</p>
+                <h6>+966 554 883 2032</h6>
+                <h5>CAREERS</h5>
+                <p>Join our team for the exciting journey!</p>
+                <h6>Jobs@matchlesssaudia.com</h6>
+                <div class="follow-section">
+                <div class="social-icons mt-3 ">
+                  <ul class="mb-0">
+                    <li><a href="https://www.facebook.com/matchlesssaudia/"><i class="fab fa-facebook-f facebook-2"></i></a></li>
+                        <li><a href="https://twitter.com/SaudiaMatchless"><i class="fab fa-twitter twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/matchlesssaudia/"><i class="fab fa-instagram instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/matchless-saudia/"><i class="fab fa-linkedin linkedin"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCAkOMUwxaf7k20tgwkVWxKw" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+                </div>
+              </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1">
+              &nbsp;
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+            <section>
+              <div class="contact-foc">
+               <h3>Join Us</h3>
+               <p>Drop your resume here for the better future and exposure.</p>
+              </div>
+          <!-- <div class="mls-contact-details"> -->
+                <div class="form-back">
+                  <form>
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group mb-0">
+                          <label for="exampleInputEmail1">Your Name</label>
+                          <input type="text" class="form-control" placeholder="Your Full Name">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group mb-0">
+                          <label for="exampleInputEmail1">Your Email</label>
+                          <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group mb-0">
+                          <label for="exampleInputEmail1">Your Phone</label>
+                          <input type="text" class="form-control" placeholder="Your Phone Number">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <label for="exampleInputEmail1">Your Subject</label>
+                          <div class="custom-select">
+                          <select>
+                            <option>Select Your Field</option>
+                            <option>Become a Partner</option>
+                            <option>Owning your resturant</option>
+                            <option>Traning</option>
+                            <option>Hospitality Business Development</option>
+                            <option>Inquiry</option>
+                            <option>Other</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                        <label for="exampleFormControlTextarea1">Upload</label>
+                    <div class="input-group mb-0">
+                      <input type="file" class="form-control" id="inputGroupFile02">
+                    </div>
+                      <div class="form-group mb-0">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="put your Address here"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-light">submit</button>
+                    </form>
+                  </div>
+                  
+          <!-- </div> -->
+
+    </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-main">
+        <div class="container max-con">
+          <div class="row">
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6">
+              <div class="digi-section">
+                <div class="digi-logo">
+                  <a href="/"><img src="assets/img/footer.png" alt="Logo"></a>
+                </div>
+                <div class="footer-content">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                      <div class="custom-digi">
+                        <h4>Contact US</h4>
+                        <p><span>Email : </span>info@matchlesssaudia.com</p>
+                        <p><span>Phone : </span>+966 554 883 2032</p>
+                      </div>
+                      <div class="follow-section">
+                    <div class="social-icons mt-3">
+                      <ul>
+                        <li><a href="https://www.facebook.com/matchlesssaudia/"><i class="fab fa-facebook-f facebook-2"></i></a></li>
+                        <li><a href="https://twitter.com/SaudiaMatchless"><i class="fab fa-twitter twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/matchlesssaudia/"><i class="fab fa-instagram instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/matchless-saudia/"><i class="fab fa-linkedin linkedin"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCAkOMUwxaf7k20tgwkVWxKw" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                      <div class="site-main">
+                        <h5>Site Map</h5>
+                        <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="aboutus.html">About Us</a></li>
+                          <li><a href="career.html">Careers</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                      <div class="site-main">
+                        <h5>Our Projects</h5>
+                        <ul>
+                          <li><a href="projectinside.html">0-Kazu</a></li>
+                          <li><a href="coming.html">Dekan Chapati</a></li>
+                          <li><a href="coming.html">Amaly</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+              <div class="subscribe-scetion">
+                <form>
+                  <label>Subscribe our Newsletter</label>
+                  <div class="input-group input-main">
+                    <input type="email" required="" class="form-control border-right-0" placeholder="Email">
+                    <span class="input-group-append custom-input">
+                    <a href="#"><button type="submit" class="btn border-left-0" ><i class="fas fa-arrow-right"></i></button></a>
+                    </span>
+                  </div>
+                </form>
+                <div class="site-map">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="site-main">
+                        <h5>Help</h5>
+                        <ul>
+                          <li>Faq's</li>
+                          <li>Terms and condition</li>
+                          <li>Privacy Policy</li>
+                          <li>Blog</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-hr">
+      <div class="container">
+        <div class="copyrights">
+          <div class="row">
+            <div class="col-12">
+              <div class="term-text">
+                <p>Copyright © 2021 Matchlesssaudia (Pvt. ltd)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+     
+ 
+              
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/career.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/lity.min.js"></script>
+     <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    </body>
+</html>
+
+
